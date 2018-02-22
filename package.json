@@ -1,8 +1,7 @@
 {
   "name": "outlook-test",
   "version": "1.0.0",
-  "description":
-    "A simple app testing the capabilities of Microsoft Outlook API.",
+  "description": "A simple app testing the capabilities of Microsoft Outlook API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ChrisJVoss/node-outlook-test/issues"
   },
-  "homepage": "https://github.com/ChrisJVoss/node-outlook-test#readme"
+  "homepage": "https://github.com/ChrisJVoss/node-outlook-test#readme",
+  "dependencies": {
+    "simple-oauth2": "^1.5.0"
+  }
 }
